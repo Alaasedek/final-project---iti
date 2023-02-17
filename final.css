@@ -1,0 +1,180 @@
+body {
+    Box-sizing : border-box ;
+    Margin: 0 ;
+    padding : 0 ;
+    background-image: url(file:///F:/cources/front-end/iti/images%20for%20final/pexels-madison-inouye-1831234.jpg); 
+ 
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+.one{
+    display: flex;
+    border:solid;
+    border-radius: 3%;
+    border-color: #05f;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+    background-color: rgb(224, 150, 174);
+   
+}
+.image{
+    width: 100px;
+    height: 100px;
+    
+}
+ul{
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #05f;
+    border: none;
+   
+}
+li{
+    /* background-color:#fff; */
+    width: 100px;
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 150px ;
+    transform: 0.7s ease;
+    border-radius: 15px;
+    
+}
+ul li a:hover{
+    color: purple;
+    transform: scale(1.1);
+    
+}
+.four{
+    margin-top: 100px;
+    border: ridge;
+    height: 100%;
+    width: 400px;
+    border-color: rgb(245, 193, 210);
+    border-radius: 10px;
+    justify-content: center;
+    margin-left: 70vb;
+
+}
+.logo{
+    width: 250px;
+    height: 250px;
+    margin-left: 80px;
+}
+.form{
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 40px; */
+    font-family: 'Courier New', Courier, monospace;
+    color: #05f;
+    width: 300px;
+    margin: 1px auto 0 auto;
+    padding: 20px;
+   /*  background-color: whitesmoke; */
+    border-radius: 1px;
+    font-size: 20px;
+
+    
+}
+.button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color:#05f;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    
+}
+
+.label input{
+    border: 2px solid #05f;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+.label input:focus {
+    outline: 0;
+}
+
+.label.success input {
+    border-color: #09c372;
+}
+.label error input{
+    border-color: #ff3860;
+}
+.label error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+.list{
+    margin-top: 40px;
+}
+.three{
+    background-color: rgb(249, 249, 119);
+    height: 100%;
+    margin-top: 200px;
+    /* background-image:
+    url(file:///F:/cources/front-end/iti/images%20for%20final/photo_2023-02-15_12-01-38.jpg); */
+    /* background-repeat: no-repeat,no-repeat; */
+    /* background-position: right; */
+   display: flex;
+
+}
+.img{
+  
+    margin: 0;
+    padding: 0;
+   position: relative;
+   display: flex;
+   justify-content:right;
+  
+}
+.about{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #05f;
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 700px;
+    font-size: 40px;
+}
+
+  .thanks{
+    color: #05f;
+    font-size: 40px;
+   margin-left: 20px;
+   
+  }
+ 
+.w3-content {
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 40px;
+  }
+  .mySlides {
+    display:none;
+}
+.btn{
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 250px;
+}
